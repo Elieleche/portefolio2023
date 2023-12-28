@@ -1,0 +1,11 @@
+Model Information:
+* title:	Haunter fbx
+* source:	https://sketchfab.com/3d-models/haunter-fbx-aed9849d58ba469baa3a191198c57d4d
+* author:	spritemare (https://sketchfab.com/spritemare)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Haunter fbx" (https://sketchfab.com/3d-models/haunter-fbx-aed9849d58ba469baa3a191198c57d4d) by spritemare (https://sketchfab.com/spritemare) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
