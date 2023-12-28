@@ -1,0 +1,42 @@
+{
+  "homepage": "https://Elieleche.github.io/portefolio",
+  "name": "react-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@react-three/drei": "^9.92.5",
+    "@react-three/fiber": "^8.15.12",
+    "gh-pages": "^6.1.1",
+    "gltf-pipeline": "^4.1.0",
+    "gltfjsx": "^6.2.16",
+    "gsap": "^3.12.4",
+    "i18next": "^23.7.11",
+    "jsdom": "^23.0.1",
+    "jsdom-global": "^3.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^14.0.0",
+    "react-router-dom": "^6.21.1",
+    "react-scroll": "^1.9.0",
+    "react-simple-maps": "^1.0.0",
+    "scrollmagic": "^2.0.8",
+    "style-components": "^0.1.0",
+    "styled-components": "^6.1.1",
+    "three": "^0.159.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "vite": "^4.0.0"
+  }
+}
