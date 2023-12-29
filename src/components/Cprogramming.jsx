@@ -23,26 +23,27 @@ const Desc = styled.p`
   }
 `
 
+const Container = styled.div`
+  height: 100vh;
+  cursor: pointer;
+`;
+
 const Cprogramming = () => {
   const [clickCount, setClickCount] = useState(0);
 
   const handleClick = () => {
-    setClickCount(prevCount => prevCount + 1);
-
-    if (clickCount + 1 === 2) {
-      window.open('https://github.com/Elieleche', '_blank');
-    }
+    window.open('https://github.com/Elieleche', '_blank');
   };
     return (
-      <>
+      <Container>
         <Canvas onClick={handleClick}>
           <Stage environment="city" intensity={0.6}>
             <Github/>
           </Stage>
           <OrbitControls enableZoom={false} autoRotate={true} rotateSpeed={2}/>
         </Canvas>
-        <Desc>Double click pour accéder à mon github et voir mes projets C</Desc>
-      </>
+        <Desc>Cliquez pour accéder à mon github et voir mes projets C</Desc>
+      </Container>
       );
 }
 

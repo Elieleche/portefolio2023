@@ -101,7 +101,7 @@ const Contact = () => {
             <Title>Contactez-moi</Title>
             <Input placeholder="Nom" name="name"/>
             <Input placeholder="Email" name="email"/>
-            <TextArea placeholder="Laissez moi votre message" rows={10} name="message"/>
+            <TextArea placeholder="Laissez-moi votre message" rows={10} name="message"/>
             <Button type="submit">envoyer</Button>
             {success &&
               "Votre message à bein été envoyé , je reviens vers vous au plus tôt"}

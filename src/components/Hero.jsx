@@ -119,9 +119,8 @@ export const Hero = () => {
           </WhatWeDo>
           <BulletList>
           <BulletListItem>Étudiant en première année à Epitech.</BulletListItem>
-          <BulletListItem>20 ans.</BulletListItem>
-            <BulletListItem>Programmation en C, Python, Mobile (Flutter), et Web (React, CSS, Three.js).</BulletListItem>
-            <BulletListItem>Maitrîse de Canvas.</BulletListItem>
+          <BulletListItem>Programmation en C, Python, Mobile (Flutter), et Web (React, CSS, Three.js).</BulletListItem>
+          <BulletListItem>Maitrîse de Canvas.</BulletListItem>
           </BulletList>
         </Left>
         <Right>

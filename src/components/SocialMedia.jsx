@@ -7,7 +7,7 @@ import styled from "styled-components";
 
 const Desc = styled.p`
   width: 190px;
-  height: 15px;
+  height: 25px;
   padding: 20px;
   background-color: lightgray;
   border-radius: 10px;
@@ -26,17 +26,14 @@ const Desc = styled.p`
 
 const Right = styled.div`
   flex: 1;
+  cursor: pointer;
 `
 
 const SocialMedia = () => {
   const [clickCount, setClickCount] = useState(0);
 
   const handleClick = () => {
-    setClickCount(prevCount => prevCount + 1);
-
-    if (clickCount + 1 === 2) {
-      window.open('https://www.linkedin.com/in/elie-chardin-624111230/', '_blank');
-    }
+    window.open('https://www.linkedin.com/in/elie-chardin-624111230/', '_blank');
   };
 
   return (
@@ -47,7 +44,7 @@ const SocialMedia = () => {
       </Stage>
       <OrbitControls enableZoom={false} autoRotate={true} rotateSpeed={2}/>
     </Canvas>
-    <Desc>Double click pour voir mon profil</Desc>
+    <Desc>Cliquez pour voir mon profil Linkedin</Desc>
     </>
   );
 };
