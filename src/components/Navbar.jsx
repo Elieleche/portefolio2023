@@ -90,7 +90,6 @@ const Navbar = () => {
           </List>
         </Links>
         <Icons>
-          <Icon src="./img/search.png" />
           <Button>Engagez-moi</Button>
         </Icons>
       </Container>

@@ -165,12 +165,14 @@ const Who = () => {
             <Subtitle>Ce qui m'intéresse</Subtitle>
           </WhatWeDo>
           <BulletList>
-            <BulletListItem>Les arts martiaux et leur valeurs.</BulletListItem>
+            <BulletListItem>Les arts martiaux et leurs valeurs.</BulletListItem>
             <BulletListItem>La musique.</BulletListItem>
-            <BulletListItem>Les jeux vidéos compétitifs.</BulletListItem>
+            <BulletListItem>Les jeux vidéo compétitifs.</BulletListItem>
             <BulletListItem>La marche.</BulletListItem>
           </BulletList>
-          <Button>Mon Spotify</Button>
+          <a href="https://open.spotify.com/user/smahpchardfr" target="_blank" rel="noopener noreferrer">
+            <Button>Mon Spotify</Button>
+          </a>
         </Right>
       </Container>
     </Section>
