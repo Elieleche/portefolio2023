@@ -90,7 +90,7 @@ const Navbar = () => {
           </List>
         </Links>
         <Icons>
-          <Button>Engagez-moi</Button>
+          <Button onClick={() => scrollToSection('contact')}>Engagez-moi</Button>
         </Icons>
       </Container>
     </Section>
