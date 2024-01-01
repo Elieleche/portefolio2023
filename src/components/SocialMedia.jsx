@@ -21,9 +21,8 @@ const Desc = styled.p`
     left: 0;
     right: 0;
     margin: auto;
-  }
+}
 `
-
 const Right = styled.div`
   flex: 1;
   cursor: pointer;

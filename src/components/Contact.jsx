@@ -30,6 +30,9 @@ const Left = styled.div`
 
 const Title = styled.h1`
   font-weight: 200;
+  @media only screen and (max-width: 768px){
+    font-weight: bold;
+}
 `
 
 const Form = styled.form`
@@ -64,6 +67,10 @@ const Button = styled.button`
   cursor: pointer;
   border-radius: 5px;
   padding: 20px;
+  @media only screen and (max-width: 768px) {
+    font-weight: bold;
+    font-size: 15px;
+  }
 `
 
 const Right = styled.div`

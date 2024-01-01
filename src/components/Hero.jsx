@@ -12,7 +12,7 @@ const Section = styled.div`
   align-items: center;
   justify-content: space-between;
   @media only screen and (max-width: 768px){
-    height: 200vh;
+    height: 105vh;
   }
 `;
 
@@ -55,6 +55,7 @@ const Title = styled.h1`
   user-select: none;
   @media only screen and (max-width: 768px){
     text-align: center;
+    font-size: 55px;
   }
 `;
 
@@ -73,6 +74,9 @@ const Line = styled.img`
 const Subtitle = styled.h2`
   color: #da4ea2;
   user-select: none;
+  @media only screen and (max-width: 768px) {
+    font-size: 20px;
+  }
 `;
 
 const BulletList = styled.ul`
@@ -91,6 +95,10 @@ const BulletListItem = styled.li`
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+  }
+  @media only screen and (max-width: 768px){
+    text-align: center;
+    font-size: 20px;
   }
 `;
 
